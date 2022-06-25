@@ -1,0 +1,113 @@
+h1,h2,h3,h4,h5 {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.bg-light {
+    background-color: rgb(236, 237, 239) !important;
+}
+.success {
+    border: 2px solid rgb(88, 138, 83);
+    border-radius: 25px;
+    background-color: rgb(112, 186, 104);
+    color: whitesmoke;
+    padding: 2rem;
+}
+.failure {
+    border: 2px solid rgb(138, 83, 83);
+    border-radius: 25px;
+    background-color: rgb(186, 104, 104);
+    color: whitesmoke;
+    padding: 2rem;
+}
+.form-control.error {
+    background-color: rgb(189, 36, 36);
+    border: 2px solid rgb(239, 111, 111);
+    color: whitesmoke;
+}
+.error {
+    color: rgb(189, 36, 36);
+}
+.btn-red {
+    background-color: rgb(189, 36, 83);
+    color: white;
+    border-radius: 25px;
+}
+
+.form-control {
+    border: none !important;
+    box-shadow: 0 3px 4px -2px rgba(0, 0, 0, 0.44) inset;
+    border-bottom: 1px solid white;
+}
+
+#emailus {
+    color:rgb(82, 78, 144);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: rgb(236, 237, 239);
+    height: 85px;
+    box-shadow: 0 3px 4px -2px rgba(0, 0, 0, 0.44) !important;
+    position:relative;
+}
+nav .container {
+    display: flex;
+    max-height: 100%;
+}
+nav img.custom-logo {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 85px;
+}
+.navbar-brand {
+    height: 69px;
+}
+.hero {
+    background-color: rgb(229, 232, 236);
+    padding: 1rem 0;
+}
+.hero .title {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+main {
+    background-color: rgb(215, 219, 224);
+    padding: 2rem 0;
+    flex: 1;
+    box-shadow: 0 0px 8px -2px rgba(0, 0, 0, 0.44) inset;
+}
+
+footer {
+    background-color: rgb(229, 232, 236);
+    height: 140px;
+    font-size: 12px;
+}
+footer .top {
+    display: flex;
+    height: 70px;
+}
+footer .top .container {
+    display: flex;
+    align-items: flex-end;
+}
+footer .bottom {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background: linear-gradient(90deg,rgb(21,33,51), rgb(54,35,88));
+    color:rgb(82, 78, 144)
+}
+footer .bottom .content.left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .bottom, footer .top {
+    padding: .5rem;
+}
